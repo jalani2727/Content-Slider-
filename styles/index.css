@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    color: white;
+    background: grey;
+
+    line-height: 1.6em;
+}
+
+a {
+    color: rgb(189, 32, 32);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.imageContainer{
+    width: 790px;
+    margin: 40px auto;
+    overflow: hidden;
+}
+
+.wholeSlider {
+    width: 750px;
+    height: 351px;
+    position: relative;
+    overflow: hidden;
+
+    float: left;
+    padding: 3px;
+    border: darkgray solid 2px;
+    border-radius: 5px;
+}
+
+.wholeSlider img{
+    width:750px;
+    height:351px;
+}
+
+.slide{
+    position: absolute;
+}
+
+.slideCopy{
+    position: absolute;
+    bottom:0;
+    left:0;
+    padding: 20px;
+    background: black;
+    background: rgba(0,0,0,0.5)
+}
+
+#previous, #next{
+    float: left;
+    margin-top: 130px;
+    cursor: pointer;
+    position: relative;
+    z-index: 100;
+
+}
+
+#previous{
+    margin-right: -45px;
+}
+#next {
+    margin-left: -45px;
+}
+
